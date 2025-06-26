@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="CustomClaims">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/apiway/basic/pkg/jwt.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="JWT">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/apiway/basic/pkg/jwt.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LoginForm">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/apiway/handler/reqhandler/user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Logins">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/apiway/basic/models/logins.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Server">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service/srvhandler/srv.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Users">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/apiway/basic/models/user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Wxs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/apiway/basic/models/wx.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="server">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service/srvmain/main.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/apiway/apicmd/cmd.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750905273065" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/apiway/basic/global/global.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750901365800" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/apiway/basic/inits/mysql.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750901580935" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/apiway/basic/inits/redis.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750901611867" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/apiway/basic/models/logins.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750902552499" />
+              <option name="schema">
+                <list>
+                  <option value="Logins" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/apiway/basic/models/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750907251388" />
+              <option name="schema">
+                <list>
+                  <option value="Users" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/apiway/basic/models/w.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750902588553" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/apiway/basic/models/wx.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750902647130" />
+              <option name="schema">
+                <list>
+                  <option value="Wxs" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/apiway/basic/pkg/jwt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750902218891" />
+              <option name="schema">
+                <list>
+                  <option value="CustomClaims" />
+                  <option value="JWT" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/apiway/handler/apihandler/reqhandler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750903687417" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/apiway/handler/apihandler/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750905612091" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/apiway/handler/reqhandler/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750904984457" />
+              <option name="schema">
+                <list>
+                  <option value="LoginForm" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/apiway/routers/router.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750905812340" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service/srvhandler/srv.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750904635007" />
+              <option name="schema">
+                <list>
+                  <option value="Server" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service/srvmain/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750903215106" />
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="custom_claims" value="CustomClaims" />
+        <entry key="jwt" value="JWT" />
+        <entry key="login_form" value="LoginForm" />
+        <entry key="logins" value="Logins" />
+        <entry key="server" value="Server" />
+        <entry key="users" value="Users" />
+        <entry key="wxs" value="Wxs" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1750900798950" />
+  </component>
+</project>

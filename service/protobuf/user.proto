@@ -1,0 +1,62 @@
+syntax = "proto3";
+
+package user;
+option go_package="./";
+//发送短信
+message SendSmsRequest {
+  string Mobile = 1;
+}
+
+message SendSmsResponse {
+  string Msg = 1;
+}
+//注册
+message RegisterRequest {
+  string Mobile = 1;
+  string Username = 2;
+  string HeaderImage = 3;
+}
+
+message RegisterResponse {
+  string Msg = 1;
+}
+//登录
+message LoginRequest {
+  string Mobile = 1;
+  string SendSms = 2;
+}
+
+message LoginResponse {
+  string Msg = 1;
+  int64  Id = 2;
+}
+//登录展示
+message ListRequest {
+  string Mobile = 1;
+}
+
+message ListResponse {
+  string Msg = 1;
+  repeated ListInfo list = 2;
+}
+message ListInfo {
+  string Username = 1;
+  string HeaderImage = 2;
+}
+message UpdateRequest {
+  string Mobile = 1;
+  string SendSms = 2;
+}
+
+message UpdateResponse {
+  string Msg = 1;
+  int64  Id = 2;
+}
+
+service User {
+  rpc SendSms(SendSmsRequest) returns(SendSmsResponse); //发送短信
+  rpc Register(RegisterRequest) returns(RegisterResponse); //注册
+  rpc Login(LoginRequest) returns(LoginResponse); //登录
+  rpc List(ListRequest) returns(ListResponse);//登录展示
+  rpc Update(UpdateRequest) returns(UpdateResponse);//登录展示
+}
